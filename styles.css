@@ -1,0 +1,36 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    box-sizing: border-box;
+}
+.sidenav a {
+    position: absolute;
+    padding: 15px;
+    width: 10%;
+    left: -90px;
+    transition: 0.2s;
+}
+.sidenav a:hover {
+    left: 0px;
+    background-color:;
+}
+#home {
+    top: 80px;
+    background-color: lightblue;
+}
+#about { 
+    top: 140px;
+    background-color: lightblue;
+}
+#contact {
+    top: 200px;
+    background-color: lightblue;
+}
+#pizze {
+    top:260px;
+    background-color: lightblue;
+}
+#order {
+    top:320px;
+    background-color: lightblue;
+}
