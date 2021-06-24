@@ -1,36 +1,41 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: medium;
+    overflow-x: hidden;
     box-sizing: border-box;
 }
-.sidenav a {
-    position: absolute;
-    padding: 15px;
-    width: 10%;
-    left: -90px;
-    transition: 0.2s;
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
 }
-.sidenav a:hover {
-    left: 0px;
-    background-color:;
+
+header .logo img {
+    height: 5rem;
 }
-#home {
-    top: 80px;
-    background-color: lightblue;
+
+.topnav {
+    background-color: ivory;
+    overflow: hidden;
 }
-#about { 
-    top: 140px;
-    background-color: lightblue;
+.topnav a {
+    float: right;
+    color: darkgreen;
+    text-align: center;
+    padding: 14px 16px;
+    font-style: italic;
+    font-size: 17px;
 }
-#contact {
-    top: 200px;
-    background-color: lightblue;
-}
-#pizze {
-    top:260px;
-    background-color: lightblue;
-}
-#order {
-    top:320px;
-    background-color: lightblue;
-}
+
+.topnav a:hover {
+    background-color: bisque;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #009900;
+    color: white;
+  }
+  
+  
+  
+  
