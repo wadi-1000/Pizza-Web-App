@@ -20,7 +20,7 @@
     <script src="scripts.js"></script>  
     
     <div class="image">
-        <img src="/imgs/chad-montano-MqT0asuoIcU-unsplash.jpg" alt="" style="width: 100%; height: 900px;">
+        <img src="/imgs/chad-montano-MqT0asuoIcU-unsplash.jpg" alt="" style="width: 100%; height: 1000px;">
     </div>
     <div class="top-left">
 
@@ -62,32 +62,91 @@
     
     <div class="row">
         <div class="column">
-          <img src="imgs/wp8620056.jpg" alt="Cheese Pizza" style="width:33.3%">
+          <img src="imgs/wp8620056.jpg" alt="Cheese Pizza" style="width:75%">
           <p>Cheese Pizza</p>
         </div>
         <div class="column">
-          <img src="imgs/wp8258278.jpg" alt="Pepperoni Pizza" style="width:33.3%">
+          <img src="imgs/wp8258278.jpg" alt="Pepperoni Pizza" style="width:75%">
           <p>Pepperoni Pizza</p>
         </div>
         <div class="column">
-          <img src="imgs/wp8258563.jpg" alt="Taste of the Sea" style="width:33.3%">
+          <img src="imgs/wp8258563.jpg" alt="Taste of the Sea" style="width:75%">
           <p>Seafood Galore</p>
         </div>
       </div>
       <div class="row">
         <div class="column">
-          <img src="imgs/wp8258528.jpg" alt="Mushroom and Cheese" style="width:33.3%">
+          <img src="imgs/wp8258528.jpg" alt="Mushroom and Cheese" style="width:75%">
           <p>Cheese and Mushroom Pizza</p>
         </div>
         <div class="column">
-          <img src="imgs/photo-1599321955726-e048426594af.jpeg" alt="Meat lover's Pizza" style="width:33.3%">
+          <img src="imgs/photo-1599321955726-e048426594af.jpeg" alt="Meat lover's Pizza" style="width:75%">
           <p>Meat-lover's Pizza</p>
         </div>
         <div class="column">
-          <img src="imgs/wp8258358.jpg" alt="Veggie Pizza" style="width:33.3%">
+          <img src="imgs/wp8258358.jpg" alt="Veggie Pizza" style="width:75%">
           <p>Veggie Pizza</p>
         </div>
       </div>
 
 </section>
+
+<h2>Order</h2>
+<form action="">
+    <div class="row">
+        <div class="col-1">
+    <label for="number">Number of Pizze</label><input type="number" id="number"> 
+</div>
+<div class="col-1">
+    <label for="topping">Choose a topping:</label>
+<select id="topping" name="topping">
+    <option value="">pick</option>
+  <option value="pepperoni">pepperoni</option>
+  <option value="bacon">bacon</option>
+  <option value="bell-peppers">bell-peppers</option>
+  <option value="chicken">chicken</option>
+  <option value="beef">beef</option>
+  <option value="sweet corn">sweet corn</option>
+  <option value="oysters">oysters</option>
+  <option value="onions">onions</option>
+  <option value="tomatoes">tomatoes</option>
+  <option value="ham">ham</option>
+  <option value="extra cheese">extra cheese</option>
+  <option value="mushrooms">mushrooms</option>
+  <option value="sausage">sausage</option>
+  <option value="black olives">black olives</option>
+  <option value="basil">basil</option>
+</select>
+</div>
+<div class="col-1">
+    <label for="crust">Type of crust:</label>
+<select id="crust" name="crust">
+    <option value="">choose</option>
+  <option value="stuffed">stuffed</option>
+  <option value="crispy">crispy</option>
+  <option value="gluten-free">gluten-free</option>
+  <option value="thin">thin</option>
+  <option value="thick">thick</option>
+</select>
+</div>
+<div class="col-1">
+<label for="size">Pick a size:</label>
+<select id="size" name="size">
+  <option value="small">small</option>
+  <option value="medium">medium</option>
+  <option value="large">large</option>
+  <option value="mega">mega</option>
+</select>
+</div>
+<div class="col-1">
+<label for="sitting">sitting</label>
+<input type="checkbox" id="sitting" name="sitting" value="sitting">
+<label for="delivery">delivery</label>
+<input type="checkbox" id="delivery" name="delivery" value="delivery">
+
+</div>
+
+<button type="button">Order</button>
+
+</form>
 </html>
