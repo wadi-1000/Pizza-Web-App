@@ -131,9 +131,30 @@ select {
     box-sizing: border-box;
   }
   button {
-      border-style: solid;
+      border-style: double;
+      border-color: darkgreen;
       color: green;
       background-color: ivory;
       border-radius: 5px;
     
+  }
+
+  h4{
+      font-weight: bold;
+  }
+
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }  
+  td{
+      padding: 35px;
+  }
+
+  #deliveryOptions {
+    display: none;
+  }
+  
+  #results {
+    display: none;
   }
