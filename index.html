@@ -30,8 +30,6 @@
         <a class="active" href="#Home" id="home">Home</a>
         <a href="#Popular" id="popular">Popular</a>
         <a href="#About" id="about">About</a>
-        <a href="#Contact Us" id="contact">Contact Us</a>
-        <a href="#Pizze" id="pizze">Pizze</a>
         <a href="#order" id="order">Order Now</a>
         </ul>
     </div>
@@ -42,13 +40,13 @@
             
 </div>
 <div class="image1">
-    <img src="/imgs/wp7758081.jpg" alt=""  style=" margin: 5px; padding: 0px; float: left;" height="590px" width="50%">
+    <img src="/imgs/wp7758081.jpg" alt=""  style=" margin: 5px; padding: 0px; float: left;" height="590px" width="45%">
 </div>
 <div class="container">
 <section class="about" id="about">
     <div class="content">
-        <h2>About</h2>
-        <p>Wadi's Kitchen is the place you want to be right now being the hottest new spot in town.
+        <h2>About Us</h2>
+        <p>Wadi's Kitchen is the place you want to be right now, with it being the hottest new spot in town.
             We are a rustic-chique pizzeria located at the heart of Nairobi County right next to Nation House.
             Our main goal is to create a cozy space to serve quality food to our customers in good time. 
         </p>
@@ -108,36 +106,81 @@
       </div>
 
 </section>
-
-<h2>Order Now</h2>
 <form action="">
+<h2 id="order" class="order">Order Now</h2>
+<div class="container">
     <div class="row">
         <div class="col-1">
-    <label for="number">Number of Pizze</label><input type="number" id="number"> 
+    <label for="number">Number of Pizze</label><input type="number" id="number" > 
 </div>
 <div class="col-1">
-    <label for="topping">Choose a topping:</label>
-<select id="topping" name="topping">
-    <option value="">pick</option>
-  <option value="pepperoni">pepperoni</option>
-  <option value="bacon">bacon</option>
-  <option value="bell-peppers">bell-peppers</option>
-  <option value="chicken">chicken</option>
-  <option value="beef">beef</option>
-  <option value="sweet corn">sweet corn</option>
-  <option value="oysters">oysters</option>
-  <option value="onions">onions</option>
-  <option value="tomatoes">tomatoes</option>
-  <option value="ham">ham</option>
-  <option value="extra cheese">extra cheese</option>
-  <option value="mushrooms">mushrooms</option>
-  <option value="sausage">sausage</option>
-  <option value="black olives">black olives</option>
-  <option value="basil">basil</option>
-</select>
+    <div class="clear"></div>
+		<section class="toppings">
+			<h4 class="title">Toppings (@ ksh. 50 each)</h4>
+			<div class="clear"></div>
+			<table class="center">
+				<tr>
+					<td>
+						<input id="sweet corn" class="topping" type="checkbox" name="topping" value="1">
+						<label>sweet corn</label>
+					</td>
+					<td>
+						<input id="mushrooms" class="topping" type="checkbox" name="topping" value="2">
+						<label>mushrooms</label>
+					</td>
+					<td>
+						<input id="bacon" class="topping" type="checkbox" name="topping" value="3">
+						<label>bacon</label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input id="extra cheese" class="topping" type="checkbox" name="topping" value="1">
+						<label>extra cheese</label>
+					</td>
+					<td>
+						<input id="beef" class="topping" type="checkbox" name="topping" value="2">
+						<label>beef</label>
+					</td>
+					<td>
+						<input id="chicken" class="topping" type="checkbox" name="topping" value="3">
+						<label>chicken</label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input id="onions" class="topping" type="checkbox" name="topping" value="1">
+						<label>onions</label>
+					</td>
+					<td>
+						<input id="bell peppers" class="topping" type="checkbox" name="topping" value="2">
+						<label>bell peppers</label>
+					</td>
+					<td>
+						<input id="ham" class="topping" type="checkbox" name="topping" value="3">
+						<label>ham</label>
+					</td>
+					<tr>
+						<td>
+							<input id="black olives" class="topping" type="checkbox" name="topping" value="1">
+							<label>black olives</label>
+						</td>
+						<td>
+							<input id="pineapple" class="topping" type="checkbox" name="topping" value="2">
+							<label>pineapple</label>
+						</td>
+						<td>
+							<input id="sausage" class="topping" type="checkbox" name="topping" value="3">
+							<label>sausage</label>
+						</td>
+					</tr>
+				</tr>
+			</table>
+		</section>
+
 </div>
 <div class="col-1">
-    <label for="crust">Type of crust:</label>
+    <label for="crust">Type of crust (@ ksh.30 each)</label>
 <select id="crust" name="crust">
     <option value="">choose</option>
   <option value="stuffed">stuffed</option>
@@ -150,21 +193,56 @@
 <div class="col-1">
 <label for="size">Pick a size:</label>
 <select id="size" name="size">
-  <option value="small">small</option>
-  <option value="medium">medium</option>
-  <option value="large">large</option>
-  <option value="mega">mega</option>
+  <option value="small">small (ksh.500)</option>
+  <option value="medium">medium (ksh.800)</option>
+  <option value="large">large (ksh.1000)</option>
+  <option value="mega">mega (ksh.1200)</option>
 </select>
 </div>
 <div class="col-1">
 <label for="sitting">sitting</label>
 <input type="checkbox" id="sitting" name="sitting" value="sitting">
-<label for="delivery">delivery</label>
+<label for="delivery">delivery (+ ksh.300)</label>
 <input type="checkbox" id="delivery" name="delivery" value="delivery">
+<div id="deliveryOptions">
+    <h4>Delivery Options</h4>
+    <div class="form-group">
+      <label for="county">County</label>
+      <input type="tel" class="form-control" id="county" placeholder="">
+    </div>
+    <div class="form-group">
+      <label for="county">Telephone</label>
+      <input type="tel" class="form-control" id="tel" placeholder="+254...">
+    </div>
 
 </div>
 
-<button type="button">Order</button>
 
+
+<button type="submit">Order</button>
+
+<div class="row" id="results">
+    <div class="col-md-4 col-sm-4">
+      <h3>Cost</h3>
+      <h4 id="subtotal"></h4>
+      <h4 id="tax"></h4>
+      <h4 id="deliveryResult"></h4>
+      <h4 id="total"></h4>
+    </div>
+    <div class="col-md-4 col-sm-4">
+      <h3>Information</h3>
+      <h4 id="countyResult"></h4>
+      <h4 id="telephoneResult"></h4>
+    </div>
+    <div class="col-md-4 col-sm-4">
+      <h3>Order Summary</h3>
+      <div id="order">
+
+      </div>
+    </div>
+  </div>
 </form>
+</div>
+
+
 </html>
