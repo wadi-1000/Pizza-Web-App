@@ -30,7 +30,7 @@
         <a class="active" href="#Home" id="home">Home</a>
         <a href="#Popular" id="popular">Popular</a>
         <a href="#About" id="about">About</a>
-        <a href="#order" id="order">Order Now</a>
+        <a href="#order" id="order-1">Order Now</a>
         </ul>
     </div>
             </div>
@@ -106,142 +106,243 @@
       </div>
 
 </section>
-<form action="">
-<h2 id="order" class="order">Order Now</h2>
-<div class="container">
-    <div class="row">
-        <div class="col-1">
-    <label for="number">Number of Pizze</label><input type="number" id="number" > 
-</div>
-<div class="col-1">
-    <div class="clear"></div>
-		<section class="toppings">
-			<h4 class="title">Toppings (@ ksh. 50 each)</h4>
-			<div class="clear"></div>
-			<table class="center">
-				<tr>
-					<td>
-						<input id="sweet corn" class="topping" type="checkbox" name="topping" value="1">
-						<label>sweet corn</label>
-					</td>
-					<td>
-						<input id="mushrooms" class="topping" type="checkbox" name="topping" value="2">
-						<label>mushrooms</label>
-					</td>
-					<td>
-						<input id="bacon" class="topping" type="checkbox" name="topping" value="3">
-						<label>bacon</label>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<input id="extra cheese" class="topping" type="checkbox" name="topping" value="1">
-						<label>extra cheese</label>
-					</td>
-					<td>
-						<input id="beef" class="topping" type="checkbox" name="topping" value="2">
-						<label>beef</label>
-					</td>
-					<td>
-						<input id="chicken" class="topping" type="checkbox" name="topping" value="3">
-						<label>chicken</label>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<input id="onions" class="topping" type="checkbox" name="topping" value="1">
-						<label>onions</label>
-					</td>
-					<td>
-						<input id="bell peppers" class="topping" type="checkbox" name="topping" value="2">
-						<label>bell peppers</label>
-					</td>
-					<td>
-						<input id="ham" class="topping" type="checkbox" name="topping" value="3">
-						<label>ham</label>
-					</td>
-					<tr>
-						<td>
-							<input id="black olives" class="topping" type="checkbox" name="topping" value="1">
-							<label>black olives</label>
-						</td>
-						<td>
-							<input id="pineapple" class="topping" type="checkbox" name="topping" value="2">
-							<label>pineapple</label>
-						</td>
-						<td>
-							<input id="sausage" class="topping" type="checkbox" name="topping" value="3">
-							<label>sausage</label>
-						</td>
-					</tr>
-				</tr>
-			</table>
-		</section>
+<form>
+    <h2 style="color: darkgreen; font-family: fantasy;" id="order-1">Order Here</h2>
+
+    <h3 style="text-align: left;">Amount</h3>
+    <div class="radio">
+      <label>
+            <input type="radio" name="amount" value="500" checked>
+            1
+          </label>
+    </div>
+    <div class="radio">
+      <label>
+            <input type="radio" name="amount" value="1000">
+            2
+          </label>
+    </div>
+    <div class="radio">
+      <label>
+            <input type="radio" name="amount" value="1500">
+            3
+          </label>
+    </div>
+    <h3 style="text-align: left;">Size</h3>
+    <div class="radio">
+      <label>
+            <input type="radio" name="size" value="500" checked>
+            Small 
+          </label>
+    </div>
+    <div class="radio">
+      <label>
+            <input type="radio" name="size" value="700">
+            Medium 
+          </label>
+    </div>
+    <div class="radio">
+      <label>
+            <input type="radio" name="size" value="900">
+            Large 
+          </label>
+    </div>
+   
+    <h3 style="text-align: left;">Crust</h3>
+    <div class="radio">
+      <label>
+            <input type="radio" name="crust" value="100" checked>
+            Stuffed
+          </label>
+    </div>
+    <div class="radio">
+      <label>
+            <input type="radio" name="crust" value="50">
+            Crispy
+          </label>
+    </div>
+    <div class="radio">
+      <label>
+            <input type="radio" name="crust" value="150">
+            Gluten-Free
+          </label>
+    </div>
 
 </div>
-<div class="col-1">
-    <label for="crust">Type of crust (@ ksh.30 each)</label>
-<select id="crust" name="crust">
-    <option value="">choose</option>
-  <option value="stuffed">stuffed</option>
-  <option value="crispy">crispy</option>
-  <option value="gluten-free">gluten-free</option>
-  <option value="thin">thin</option>
-  <option value="thick">thick</option>
-</select>
+<div class="col-md-3 col-sm-3">
+  <h3>Toppings </h3>
+  <div class="checkbox">
+    <label>
+          <input type="checkbox" value="75">
+          Sausage
+        </label>
+  </div>
+  <div class="checkbox">
+    <label>
+          <input type="checkbox" value="75">
+          Pepperoni
+        </label>
+  </div>
+  <div class="checkbox">
+    <label>
+          <input type="checkbox" value="125">
+          Bacon 
+        </label>
+  </div>
+  <div class="checkbox">
+    <label>
+          <input type="checkbox" value="75">
+          Salami
+        </label>
+  </div>
+  <div class="checkbox">
+    <label>
+          <input type="checkbox" value="75">
+          Ham
+        </label>
+  </div>
+  <div class="checkbox">
+    <label>
+          <input type="checkbox" value="125">
+          Chicken 
+        </label>
+  </div>
+  <div class="checkbox">
+    <label>
+          <input type="checkbox" value="75">
+          Feta Cheese
+        </label>
+  </div>
+  <div class="checkbox">
+    <label>
+          <input type="checkbox" value="75">
+          Soy Cheese
+        </label>
+  </div>
+  <div class="checkbox">
+    <label>
+          <input type="checkbox" value="75">
+          Banana Peppers
+        </label>
+  </div>
+  <div class="checkbox">
+    <label>
+          <input type="checkbox" value="75">
+          Jalapeño Peppers
+        </label>
+  </div>
+  <div class="checkbox">
+    <label>
+          <input type="checkbox" value="75">
+          Onion
+        </label>
+  </div>
+  <div class="checkbox">
+    <label>
+          <input type="checkbox" value="75">
+          Olives
+        </label>
+  </div>
+  <div class="checkbox">
+    <label>
+          <input type="checkbox" value="75">
+          Pineapple
+        </label>
+  </div>
+  <div class="checkbox">
+    <label>
+          <input type="checkbox" value="75">
+          Mushrooms
+        </label>
+  </div>
+  <h3 style="text-align: left;">Delivery/Pickup</h3>
 </div>
-<div class="col-1">
-<label for="size">Pick a size:</label>
-<select id="size" name="size">
-  <option value="small">small (ksh.500)</option>
-  <option value="medium">medium (ksh.800)</option>
-  <option value="large">large (ksh.1000)</option>
-  <option value="mega">mega (ksh.1200)</option>
-</select>
-</div>
-<div class="col-1">
-<label for="sitting">sitting</label>
-<input type="checkbox" id="sitting" name="sitting" value="sitting">
-<label for="delivery">delivery (+ ksh.300)</label>
-<input type="checkbox" id="delivery" name="delivery" value="delivery">
-<div id="deliveryOptions">
-    <h4>Delivery Options</h4>
+
+<div class="col-md-4 col-sm-4">
+  <h3>Options</h3>
+  <div class="checkbox">
+    <label>
+          <input type="checkbox" value="50">
+          Extra Cheese 
+        </label>
+  </div>
+  <div class="checkbox">
+    <label>
+          <input type="checkbox" value="50">
+          Add bread sticks to order. 
+        </label>
+  </div>
+  </div>
+  
+  
+  <div class="form-group">
+    <select class="form-control">
+          <option value="0" selected disabled>Delivery or Pickup</option>
+          <option value="5" id="delivery">Delivery (+ ksh 300)</option>
+          <option value="0">Pickup</option>
+        </select>
+  </div>
+  <div id="deliveryOptions">
     <div class="form-group">
-      <label for="county">County</label>
-      <input type="tel" class="form-control" id="county" placeholder="">
+      <label for="street">Street</label>
+      <input type="tel" class="form-control" id="street" placeholder="5615 Vistancia Drive">
     </div>
     <div class="form-group">
-      <label for="county">Telephone</label>
-      <input type="tel" class="form-control" id="tel" placeholder="+254...">
+      <label for="city">City</label>
+      <input type="tel" class="form-control" id="city" placeholder="Parker">
     </div>
-
-</div>
-
-
-
-<button type="submit">Order</button>
-
-<div class="row" id="results">
-    <div class="col-md-4 col-sm-4">
-      <h3>Cost</h3>
-      <h4 id="subtotal"></h4>
-      <h4 id="tax"></h4>
-      <h4 id="deliveryResult"></h4>
-      <h4 id="total"></h4>
+    <div class="form-group">
+      <label for="zip">Zip</label>
+      <input type="number" class="form-control" id="zip" placeholder="80134">
     </div>
-    <div class="col-md-4 col-sm-4">
-      <h3>Information</h3>
-      <h4 id="countyResult"></h4>
-      <h4 id="telephoneResult"></h4>
-    </div>
-    <div class="col-md-4 col-sm-4">
-      <h3>Order Summary</h3>
-      <div id="order">
-
-      </div>
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea class="form-control" rows="3" placeholder="Gate code is..." id="message"></textarea>
     </div>
   </div>
+  <div class="form-group">
+    <label for="tel">Tel</label>
+    <input type="tel" class="form-control" id="tel" placeholder="303-565-0001">
+  </div>
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" class="form-control" id="email" placeholder="tommy.gaessler@gmail.com">
+  </div>
+  <div class="checkbox">
+    <label>
+          <input type="checkbox" value=".15" id="tip">
+          Suggested Tip 15%
+        </label>
+  </div>
+
+<button class="btn btn-default btn-block" type="submit" style="border-color: green; color: darkgreen; font-size: 20px; background-color: whitesmoke;">Order</button>
 </form>
+</div>
+<div class="row" id="results">
+<div class="col-md-4 col-sm-4">
+  <h3>Charge</h3>
+  <h4 id="subtotal"></h4>
+  <h4 id="tax"></h4>
+  <h4 id="tipResult"></h4>
+  <h4 id="deliveryResult"></h4>
+  <h4 id="total"></h4>
+</div>
+<div class="col-md-4 col-sm-4">
+  <h3>Information</h3>
+  <h4 id="streetResult"></h4>
+  <h4 id="cityResult"></h4>
+  <h4 id="zipResult"></h4>
+  <h4 id="messageResult"></h4>
+  <h4 id="telResult"></h4>
+  <h4 id="emailResult"></h4>
+</div>
+<div class="col-md-4 col-sm-4">
+  <h3>Order</h3>
+  <div id="order">
+
+  </div>
+</div>
+</div>
 </div>
 
 
