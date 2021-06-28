@@ -1,29 +1,30 @@
 body {
-    
+
     font-size: medium;
     overflow-x: hidden;
     box-sizing: border-box;
-}
-
-
-header .logo img {
+  }
+  
+  
+  header .logo img {
     height: 5rem;
-}
-
-.topnav {
+  }
+  
+  .topnav {
     background-color: transparent;
     overflow: hidden;
-}
-.topnav a {
+  }
+  
+  .topnav a {
     float: right;
     color: lightyellow;
     text-align: center;
     padding: 14px 16px;
     font-style: italic;
     font-size: 18px;
-}
-
-.topnav a:hover {
+  }
+  
+  .topnav a:hover {
     background-color: bisque;
     color: black;
   }
@@ -33,9 +34,9 @@ header .logo img {
     color: yellow;
   }
   
-  header .topnav.nav-toggle{
-      transform:scaleY(1);
-      opacity: 1;
+  header .topnav.nav-toggle {
+    transform: scaleY(1);
+    opacity: 1;
   }
   
   
@@ -48,109 +49,69 @@ header .logo img {
     margin: -2px;
     padding: 5px;
   }
-
-.top-right {
+  
+  .top-right {
     position: absolute;
     top: 100px;
     right: 20px;
     color: lightyellow;
-    
-}
-
-.about {
+  
+  }
+  
+  .about {
     text-align: right;
     font-style: oblique;
     flex-wrap: wrap;
     font-size: 22px;
     color: black;
-}
-
-
- .image{
-     margin: 6px;
- }
-
-h2 {
+  }
+  
+  
+  .image {
+    margin: 6px;
+  }
+  
+  h2 {
     text-align: center;
-}
-
-.column {
+  }
+  
+  .column {
     float: left;
     width: 33.3%;
     padding: 5px;
   }
   
-h3 {
+  h3 {
     text-align: right;
-}
-
-.container{
+  }
+  
+  .container {
     justify-content: center;
-}
-
-.w3-row{
+  }
+  
+  .w3-row {
     text-align: center;
-}
-h3{
+  }
+  
+  h3 {
     text-align: center;
-}
-
-.popular p {
+  }
+  
+  .popular p {
     color: darkgreen;
-}
-
-.popular h1 {
+  }
+  
+  .popular h1 {
     color: green;
     text-align: center;
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-}  
-
-form{
-background-color: whitesmoke;
-text-align: center;
-}
-input[type=number] {
-    width: 95%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
   }
-
-select {
-    width: 95%;
-    padding: 16px 20px;
-    border: none;
-    border-radius: 4px;
-    background-color: #f1f1f1;
+  
+  .form h2 {
+    text-align: justify;
   }
-  input[type=checkbox] {
-    width: 97%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-  }
-  button {
-      border-style: double;
-      border-color: darkgreen;
-      color: green;
-      background-color: ivory;
-      border-radius: 5px;
-    
-  }
-
-  h4{
-      font-weight: bold;
-  }
-
-  .center {
-    margin-left: auto;
-    margin-right: auto;
-  }  
-  td{
-      padding: 35px;
-  }
-
+  
   #deliveryOptions {
     display: none;
   }
@@ -158,3 +119,8 @@ select {
   #results {
     display: none;
   }
+  
+  .form {
+    background-color: darkolivegreen;
+  }
+  
