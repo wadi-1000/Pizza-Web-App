@@ -1,4 +1,4 @@
-# DELANI STUDIO
+# Wadi's Pizzeria
 
 ### Written By: [Joy Kiranga](https://github.com/wadi-1000)
 
@@ -10,7 +10,9 @@ My project of a web application for a local pizzeria.
 
 -  A paragraph about the website.
 
--  A form to contact.
+-  Photos of people's favorite pizza.
+
+-  A form to order a pizza.
 
 ### Known Bugs
 
